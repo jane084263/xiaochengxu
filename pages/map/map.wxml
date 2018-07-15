@@ -1,0 +1,4 @@
+<!--logs.wxml-->
+<view class="container" >
+     <image style="width: 350px; height: 300px; background-color: #eeeeee;" mode='aspectFit' src="{{imgSrc}}"></image>
+</view>

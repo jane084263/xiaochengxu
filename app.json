@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/canvas/canvas"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小乌龟饿了",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#fff",
+    "enablePullDownRefresh":false,
+    "onReachBottomDistance":80
+  },
+  "tabBar": {
+    "color":"#000",
+    "selectedColor":"#ccc",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "position":"top",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "登陆", "color":"#999"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "献爱心"
+      },
+      {
+        "pagePath": "pages/canvas/canvas",
+        "text": "签名"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

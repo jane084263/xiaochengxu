@@ -1,0 +1,8 @@
+canvas{
+  width:99%;
+  height:400rpx;
+}
+button {
+  width: 50%;
+  background-color: lavender;
+}
