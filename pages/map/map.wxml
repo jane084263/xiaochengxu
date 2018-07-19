@@ -1,4 +1,5 @@
 <!--logs.wxml-->
 <view class="container" >
+    <button bindtap="tapNavTo">点击跳转</button>
      <image style="width: 350px; height: 300px; background-color: #eeeeee;" mode='aspectFit' src="{{imgSrc}}"></image>
 </view>

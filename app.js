@@ -33,9 +33,21 @@ App({
       }
     })
   },
-  onShow:function () {},
+  // 小程序启动，从后台进入前台
+  onShow:function (options) {
+    // options
+    console.log('options', options);
+  },
+  // 小程序从前台进入后台
   onHide:function () {},
+  // 监听错误函数
   onError:function () {},
+  // 页面不存在的监听函数
+  onPageNotFound:function (res) {
+    wx.redirectTo({
+      url: 'pages/notFound/notFount',
+    })
+  },
   globalData: {
     userInfo: null
   }

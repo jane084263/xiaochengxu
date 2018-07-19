@@ -1,5 +1,5 @@
 //logs.js
-const util = require('../../utils/util.js')
+const util = require('../../utils/util.js');
 
 Page({
   data: {
@@ -39,8 +39,13 @@ Page({
     console.log('shared');
     return {
       title: '分享到朋友圈',
-      path:''
+      // path:''
     }
   },
-  
+  tapNavTo: function () {
+    // 点击跳转到
+    wx.navigateTo({
+      url: "view"
+    })
+  }
 })
